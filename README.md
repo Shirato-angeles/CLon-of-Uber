@@ -7,6 +7,6 @@ this is to app based of uber for new driver
 
 lenguaje used :
 JavaScript,
-React Js,
+React Native,
 Node js ,
 Mongo DB,
