@@ -106,7 +106,7 @@ useEffect(()=>{
                         />
                     </View>
                     <View style ={styles.view3}>
-                        <Text style ={styles.text3}> A donde ?</Text>  
+                        <Text style ={styles.text3}> A donde?</Text>  
                         <View style ={styles.view4}>
                             <Icon type = "material-community"
                                 name ="clock-time-four"
@@ -131,7 +131,7 @@ useEffect(()=>{
                                 />
                             </View>
                             <View>
-                                <Text style ={{fontSize:18,color:colors.black}}>32 Olivia Rd</Text>
+                                <Text style ={{fontSize:18,color:colors.black}}>Chapinero, Bogotá </Text>
                                 <Text style ={{color:colors.grey3}}>Klipfontein 83-Ir, Boksburg</Text>
                             </View>
                         </View>
@@ -154,7 +154,7 @@ useEffect(()=>{
                                 />
                             </View>
                             <View>
-                                <Text style ={{fontSize:18,color:colors.black}}>32 Olivia Rd</Text>
+                                <Text style ={{fontSize:18,color:colors.black}}>Calle 26, Bogotá</Text>
                                 <Text style ={{color:colors.grey3}}>Klipfontein 83-Ir, Boksburg</Text>
                             </View>
                         </View>
@@ -167,7 +167,7 @@ useEffect(()=>{
                             </View>
                     </View>  
 
-                    <Text style ={styles.text4}> Around you</Text>
+                    <Text style ={styles.text4}> Alrededor tuyo</Text>
 
                     <View style ={{alignItems:"center",justifyContent:"center"}}>
                        <MapView
@@ -337,9 +337,10 @@ const styles = StyleSheet.create({
     
     map:{
        
-    height: 150,
+    height: 200,
      marginVertical: 0,
-     width:SCREEN_WIDTH*0.92
+     width:SCREEN_WIDTH*0.92,
+     borderRadius:35
     },
     
     text4:{ fontSize:20,

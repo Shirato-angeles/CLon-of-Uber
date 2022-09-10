@@ -18,16 +18,31 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uberClone"},
+      "config": {
+        "googleMpasApiKey":"AIzaSyCP90JQunEZAKNge7gL4E_jROdbIhPiNY8" 
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+
+      "package":"com.uberClone",
+      "config": {
+        "googleMpas":{
+          "apiKey":"AIzaSyCP90JQunEZAKNge7gL4E_jROdbIhPiNY8"
+        },
+
+        "permissions":["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION" , "FOREGROUND_SERVICE"]
+
       }
+
     },
     "web": {
       "favicon": "./assets/favicon.png"
     }
   }
-}
+
