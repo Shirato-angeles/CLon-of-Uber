@@ -22,7 +22,7 @@ export const mapStyle = [
         "elementType": "labels.text.fill",
         "stylers": [
             {
-                "color": "#7492a8"
+                "color": "#7492a9"
             }
         ]
     },
